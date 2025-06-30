@@ -1,0 +1,10 @@
+PUT http://localhost:4004/api/patients/123e4567-e89b-12d3-a456-426614174001
+Content-Type: application/json
+
+{
+  "name": "Tushar Awasthi",
+  "email": "tusharawasthi81@gmailcom",
+  "address": "934 Janta",
+  "dateOfBirth": "2004-02-10",
+  "registeredDate": "2007-10-10"
+}

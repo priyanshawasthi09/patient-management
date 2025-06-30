@@ -1,9 +1,9 @@
-POST localhost:4000/patients
+POST http://localhost:4004/api/patients
 Content-Type: application/json
 
 {
-  "name": "Ranjana Awasthi",
-  "email": "ranajanaAwasthi09@gmail.com",
+  "name": "123 Awasthi",
+  "email": "123@gmail.com",
   "address": "A-143/6 Baba Colony Burari",
   "dateOfBirth": "2001-07-21",
   "registeredDate": "2005-10-10"
