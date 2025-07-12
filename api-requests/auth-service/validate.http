@@ -1,2 +1,2 @@
-GET http://localhost:4005/validate
+GET http://localhost:4004/auth/validate
 Authorization: Bearer {{token}}

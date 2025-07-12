@@ -1,4 +1,4 @@
 ### GET request to example server
 GET http://localhost:4004/api/patients
-
+Authorization: Bearer {{token}}
 ###
