@@ -51,8 +51,7 @@ public class PatientController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Update the Patient details")
-    public ResponseEntity<PatientResponseDTO> putMethodName(@PathVariable UUID id,
-                                                            @Validated({ Default.class }) @RequestBody PatientRequestDTO patientRequestDTO) {
+    public ResponseEntity<PatientResponseDTO> putMethodName(@PathVariable UUID id, @Validated({ Default.class }) @RequestBody PatientRequestDTO patientRequestDTO) {
         PatientResponseDTO patientResponseDTO = patientService.updatePatient(id, patientRequestDTO);
         return ResponseEntity.ok().body(patientResponseDTO);
     }
