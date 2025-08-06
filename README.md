@@ -18,7 +18,5 @@ microservices, secure backend development.</p>
 <li>Postgres SQL</li>
 </ul><ul>
 <li>API GATEWAY</li>
-</ul><ul>
-<li>H</li>
 </ul><h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="www.linkedin.com/in/priyansh-awasthi-9328aa339"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/priyanshawasthi09"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
