@@ -47,7 +47,7 @@ patient-management/
 
 ## 📌 Visual Representation
 
-![Project Structure](https://drive.google.com/uc?id=1euDemxVIXVT7AUBUMAnu0g8sPjhoVy6c)
+![📂 Project Structure](https://drive.google.com/uc?export=view&id=1euDemxVIXVT7AUBUMAnu0g8sPjhoVy6c)
 
 ---
 
