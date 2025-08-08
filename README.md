@@ -1,8 +1,5 @@
 # **HealthSync – Patient Management System**  
 
-**Author:** [Harsha Kumari](https://www.linkedin.com/in/harshakumari/)  
-**GitHub:** [harshakumari21](https://github.com/harshakumari21)  
-
 ---
 
 ## **📌 Introduction**  
@@ -73,6 +70,118 @@ git clone https://github.com/harshakumari21/patient-management.git
 # Ensure Docker is running and network mode is set to: --network internal
 
 # Run microservices via Docker Compose or IntelliJ Docker configs
+```
 
+---
 
+## **Microservices and Docker Configurations**
 
+## Patient-Service
+**Envrionment Variables**
+
+BILLING_SERVICE_ADDRESS=billing-service  
+BILLING_SERVICE_GRPC_PORT=9001  
+SPRING_DATASOURCE_PASSWORD=password  
+SPRING_DATASOURCE_URL=jdbc:postgresql://patient-service-db:5432/db  
+SPRING_DATASOURCE_USERNAME=admin  
+SPRING_JPA_HIBERNATE_DDL_AUTO=update  
+SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092  
+SPRING_SQL_INIT_MODE=always  
+
+## Billing Service
+**Bind Ports**
+
+4001:4001  
+9001:9001 (gRPC)  
+
+## Auth Service
+**Envrionment Variables**
+
+JWT_KEY=your_jwt_key  
+SPRING_DATASOURCE_PASSWORD=password  
+SPRING_DATASOURCE_URL=jdbc:postgresql://auth-service-db:5432/db  
+SPRING_DATASOURCE_USERNAME=admin  
+SPRING_JPA_HIBERNATE_DDL_AUTO=update  
+SPRING_SQL_INIT_MODE=always  
+
+## API GATEWAY
+**Bind Ports**
+
+4004:4004
+
+**Envrionment Variables**
+
+AUTH_SERVICE_URL=http://auth-service:4005  
+
+## Analytics-Service
+**Bind Ports**
+
+4002:4002
+
+**Environment Variables**
+
+SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092  
+
+## Patient-Service-DB
+**Bind Ports**
+
+5000:5432
+
+**Bind Mount**
+
+Host Path - C:\Users\priya\IdeaProjects\patient-management\patient-service\db_modules
+Container Path - \var\lib\postgresql\ (name this as - \data\postgres\SQL)
+(Choose Any Path you desire for both and naming the paths are also allowed)
+
+**Environment Variables**
+
+POSTGRES_DB=db  
+POSTGRES_PASSWORD=password  
+POSTGRES_USER=admin 
+
+## Auth-Service-DB
+**Bind Ports**
+
+5001:5432
+
+**Bind Mount**
+
+Host Path - C:\Users\priya\IdeaProjects\patient-management\auth-service\db_modules
+Container Path - \var\lib\postgresql\data (name this as - \data\postgres\SQL)
+(Choose Any Path you desire for both and naming the paths are also allowed)
+
+**Environment Variables**
+
+POSTGRES_DB=db  
+POSTGRES_PASSWORD=password  
+POSTGRES_USER=admin  
+
+## Kafka
+**Bind Ports**
+
+9092:9092  
+9094:9094
+
+**Environment Variables**
+
+KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094  
+KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER  
+KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093  
+KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT  
+KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094  
+KAFKA_CFG_NODE_ID=0  
+KAFKA_CFG_PROCESS_ROLES=controller,broker  
+
+---
+
+## **✅ Key Learnings**
+- Designed a scalable microservices system with independent deployments.
+- Implemented secure authentication with JWT.
+- Used Dockerized PostgreSQL databases for isolated development.
+- Integrated Kafka messaging and gRPC for efficient communication.
+
+---
+## **📬 Contact**
+
+**Author:** [Harsha Kumari](https://www.linkedin.com/in/harshakumari/)  
+**GitHub:** [harshakumari21](https://github.com/harshakumari21)  
