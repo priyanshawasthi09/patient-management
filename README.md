@@ -22,7 +22,7 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 - **Infrastructure:** Docker, Docker Compose  
 - **Gateway:** API Gateway for routing  
 - **Testing:** Postman (API Testing)  
-
+- **API FLOW:** Swagger (Integrated)
 ---
 
 ## 📂 Project Structure
@@ -70,6 +70,9 @@ git clone https://github.com/harshakumari21/patient-management.git
 # Ensure Docker is running and network mode is set to: --network internal
 
 # Run microservices via Docker Compose or IntelliJ Docker configs
+
+# After Full execution API code will be present at - localhost:4004/api-docs/patients
+# Paste that in Swagger Editor for API Flow execution
 ```
 
 ---
