@@ -29,3 +29,28 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 ---
 
 ## **📂 Project Structure**
+
+**Visual Representation:**  
+![Project Structure](Screenshot%202025-08-08%20225130.png)  
+
+---
+
+## **⚙️ Setup & Workflow**  
+
+### **Prerequisites**  
+- Java 17  
+- IntelliJ IDEA (Preferred)  
+- Docker Desktop  
+- Postman (For API Testing)  
+
+---
+
+## **🚀 Run Workflow**  
+```bash
+# Clone the repository
+git clone https://github.com/harshakumari21/patient-management.git
+
+# Open in IntelliJ IDEA and configure Docker integration
+# Ensure Docker is running and network mode is set to: --network internal
+
+# Run microservices via Docker Compose or IntelliJ Docker configs
