@@ -29,7 +29,7 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 ---
 
 ## 📂 Project Structure
-patient-management/
+## patient-management/
 │
 ├── analytics-service/ # Handles data analytics
 ├── api-gateway/ # Central gateway for routing
