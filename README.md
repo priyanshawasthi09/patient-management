@@ -28,7 +28,7 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 
 ---
 
-## **📂 Project Structure**
+## 📂 Project Structure
 patient-management/
 │
 ├── analytics-service/ # Handles data analytics
