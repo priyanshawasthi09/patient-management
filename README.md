@@ -29,6 +29,7 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 ---
 
 ## 📂 Project Structure
+```
 patient-management/
 │
 ├── analytics-service/ # Handles data analytics
@@ -42,7 +43,7 @@ patient-management/
 ├── README.md # Project documentation
 ├── LICENSE # License file
 └── patient-management.iml # IntelliJ project config
-
+```
 
 ---
 
