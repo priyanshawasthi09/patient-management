@@ -73,6 +73,7 @@ git clone https://github.com/harshakumari21/patient-management.git
 ---
 
 ## **Patient Service**
+```bash
 ## 🌍 Environment Variables & Bind Ports
 
 ### **Patient-Service**
