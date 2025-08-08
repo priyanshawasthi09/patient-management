@@ -45,8 +45,9 @@ patient-management/
 
 ---
 
-**Visual Representation:**  
-![Project Structure](https://drive.google.com/file/d/1pwc53OUES8xskXLstki3fAmaT4ycNLWN/view?usp=sharing )  
+## 📌 Visual Representation
+
+![Project Structure](https://drive.google.com/uc?export=view&id=1pwc53OUES8xskXLstki3fAmaT4ycNLWN)
 
 ---
 
@@ -70,19 +71,5 @@ git clone https://github.com/harshakumari21/patient-management.git
 
 # Run microservices via Docker Compose or IntelliJ Docker configs
 
-## **Patient Service**
-```bash
-## 🌍 Environment Variables & Bind Ports
 
-### **Patient-Service**
-**Environment Variables**
-```env
-BILLING_SERVICE_ADDRESS=billing-service
-BILLING_SERVICE_GRPC_PORT=9001
-SPRING_DATASOURCE_PASSWORD=password
-SPRING_DATASOURCE_URL=jdbc:postgresql://patient-service-db:5432/db
-SPRING_DATASOURCE_USERNAME=admin
-SPRING_JPA_HIBERNATE_DDL_AUTO=update
-SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
-SPRING_SQL_INIT_MODE=always
 
