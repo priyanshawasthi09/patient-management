@@ -46,7 +46,7 @@ patient-management/
 ---
 
 **Visual Representation:**  
-![Project Structure]()  
+![Project Structure](https://drive.google.com/file/d/1pwc53OUES8xskXLstki3fAmaT4ycNLWN/view?usp=sharing )  
 
 ---
 
@@ -69,8 +69,6 @@ git clone https://github.com/harshakumari21/patient-management.git
 # Ensure Docker is running and network mode is set to: --network internal
 
 # Run microservices via Docker Compose or IntelliJ Docker configs
-
----
 
 ## **Patient Service**
 ```bash
