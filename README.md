@@ -29,9 +29,24 @@ It follows a **microservices architecture** to ensure **modularity, scalability,
 ---
 
 ## **📂 Project Structure**
+patient-management/
+│
+├── analytics-service/ # Handles data analytics
+├── api-gateway/ # Central gateway for routing
+├── api-requests/ # API request definitions
+├── auth-service/ # Authentication and user management
+├── billing-service/ # Billing and payments
+├── grpc-requests/ # gRPC request definitions
+├── integration-tests/ # End-to-end integration tests
+├── patient-service/ # Core patient management
+├── README.md # Project documentation
+├── LICENSE # License file
+└── patient-management.iml # IntelliJ project config
+
+---
 
 **Visual Representation:**  
-![Project Structure](Screenshot%202025-08-08%20225130.png)  
+![Project Structure]()  
 
 ---
 
@@ -54,3 +69,21 @@ git clone https://github.com/harshakumari21/patient-management.git
 # Ensure Docker is running and network mode is set to: --network internal
 
 # Run microservices via Docker Compose or IntelliJ Docker configs
+
+---
+
+## **Patient Service**
+## 🌍 Environment Variables & Bind Ports
+
+### **Patient-Service**
+**Environment Variables**
+```env
+BILLING_SERVICE_ADDRESS=billing-service
+BILLING_SERVICE_GRPC_PORT=9001
+SPRING_DATASOURCE_PASSWORD=password
+SPRING_DATASOURCE_URL=jdbc:postgresql://patient-service-db:5432/db
+SPRING_DATASOURCE_USERNAME=admin
+SPRING_JPA_HIBERNATE_DDL_AUTO=update
+SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+SPRING_SQL_INIT_MODE=always
+
