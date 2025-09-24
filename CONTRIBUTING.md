@@ -30,7 +30,7 @@ This guide will walk you through the entire contribution process, from setting u
 
 ## 📜 Code of Conduct
 
-We expect all contributors to follow our [`Coming Soon`].
+We expect all contributors to follow our `Coming Soon`.
 
 By participating in this project, you agree to maintain a **respectful and inclusive environment** for everyone.
 
@@ -82,12 +82,12 @@ We aim to keep things smooth and transparent:
 
 * Once your PR is submitted, a maintainer will review it.
 * You may be asked to:
- * Fix styling issues.
- * Add missing documentation/tests.
- * Break large PRs into smaller pieces.
+  * Fix styling issues.
+  * Add missing documentation/tests.
+  * Break large PRs into smaller pieces.
 * After approval:
- * Your PR will be merged with a squash merge to keep history clean.
- * You’ll receive feedback, even if the PR isn’t merged immediately.
+  * Your PR will be merged with a squash merge to keep history clean.
+  * You’ll receive feedback, even if the PR isn’t merged immediately.
 * ⌛ Reviews may take **24–72 hours** depending on activity. Thanks for your patience!
 
  > For Any Query, Send DM on LinkedIn [`Priyansh Awasthi`](https://www.linkedin.com/in/priyansh-awasthi-9328aa339?).
@@ -118,7 +118,7 @@ We aim to keep things smooth and transparent:
   <a href="https://docs.github.com/get-started">Getting started with Git and GitHub</a> <br>
 </p>
 
-<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
+<h2 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h2>
 
 ![Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
 
