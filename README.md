@@ -184,7 +184,3 @@ KAFKA_CFG_PROCESS_ROLES=controller,broker
 - Integrated Kafka messaging and gRPC for efficient communication.
 
 ---
-## **📬 Contact**
-
-**Author:** [Harsha Kumari](https://www.linkedin.com/in/harshakumari/)  
-**GitHub:** [harshakumari21](https://github.com/harshakumari21)  
