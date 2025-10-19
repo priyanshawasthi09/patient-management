@@ -185,6 +185,15 @@ KAFKA_CFG_PROCESS_ROLES=controller,broker
 
 ---
 
+## 🧑‍💻 Contributing
+We welcome contributions!  
+Please read our [Contributing Guidelines](./CONTRIBUTING.md) before submitting a Pull Request.  
+Follow the coding standards, commit message conventions, and issue process described there.
+
+---
+
+## 📄 License
+This project is licensed under the terms of the [MIT License](./LICENSE).
 
 ## ✨ Contributors
 
