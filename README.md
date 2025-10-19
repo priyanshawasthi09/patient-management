@@ -194,3 +194,15 @@ Follow the coding standards, commit message conventions, and issue process descr
 
 ## 📄 License
 This project is licensed under the terms of the [MIT License](./LICENSE).
+
+## ✨ Contributors
+
+#### Thanks to all the wonderful contributors 💖
+
+<a href="https://github.com/priyanshawasthi09/patient-management/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=priyanshawasthi09/patient-management" />
+</a>
+
+#### See full list of contributor contribution [Contribution Graph](https://github.com/priyanshawasthi09/patient-management/graphs/contributors)  
+
+---
